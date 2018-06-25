@@ -1,9 +1,5 @@
 ---global:
 
-  -should I put styles into the page folder or the global folder? BEM guidelines say put it in module folders where should I put global styles then?
-
-  -.button max width works, but regular width does not?
-
 
 
 
@@ -11,27 +7,19 @@ index:
 
 ---menu:
 
-  -I used absolute positioning for left and rightmost elements to have better control when I'm working on responsive.
-  Should they be done as the part of menu flex?
+  — Is it okay to vertically align text here with line height?
 
 -index_1_intro
 
-basic flex
 
 
 ---index_2_numbers
 
-   -I used two flexboxes inside a flexbox to position four elements in two columns, I wonder if there is a better way to do this
-   because adjusting elements seemed tricky and I wasnt able to achieve perfect result
+
 
 
 ---index_3_experts
 
-  -Is it okay to use numbered font weight? like I do for h2 and its child span?
-
-  -Is it acceptable to use <br> to achieve the same result with text alignment within <p> here?
 
 
 ---index_4_icons
-
-  -instead of doing icons as a span background I should try doing it as a pseudoelement

@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .button {
   margin: auto;
   display: block;
@@ -81,42 +89,33 @@ a:hover {
   text-decoration: underline;
 }
 
-nav {
-  border-top: none;
-  position: relative;
-  font-weight: bold;
-  font-size: 16px;
-  background-color: #ffffff;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0px 328px 0px 328px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav ul li {
-  margin: 59px 0 59px 0;
-}
-
-nav img {
-  position: absolute;
-  top: 19%;
-  left: 91px;
-}
-
-nav p {
-  padding: 15px 35px;
-  position: absolute;
-  top: 19%;
-  right: 100px;
-  background: #c02482;
-  border-radius: 25px;
-}
-
-nav p a {
-  color: #ffffff;
-  margin: auto;
+@media (min-width: 992px) {
+  nav {
+    height: 140px;
+    padding-top: 25px;
+    line-height: 87px;
+    padding-bottom: 15px;
+    border-top: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+  nav ul {
+    max-width: 1090px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .nav-login {
+    padding: 15px 35px;
+    top: 19%;
+    right: 100px;
+    background: #c02482;
+    border-radius: 25px;
+    color: #ffffff;
+    margin: auto;
+  }
 }

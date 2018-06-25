@@ -1,5 +1,12 @@
 @import variables.sass
 
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+
 .button
   margin: auto
   display: block
@@ -61,32 +68,32 @@ a
   &:hover
     text-decoration: underline
 
-nav
-  //border: 1px solid lightgrey //test
-  border-top: none
-  position: relative
-  font-weight: bold
-  font-size: 16px
-  background-color: $white
-  ul
-    padding: 0
-    margin: 0px 328px 0px 328px
-    list-style: none
-    display: flex
-    justify-content: space-between
-    li
-      margin: 59px 0 59px 0
-  img
-    position: absolute
-    top: 19%
-    left: 91px
-  p
-    padding: 15px 35px
-    position: absolute
-    top: 19%
-    right: 100px
-    background: #c02482
-    border-radius: 25px
-    a
+@media (min-width: 992px)
+  nav
+    //border: 1px solid lightgrey //test
+    height: 140px
+    padding-top: 25px
+    line-height: 87px
+    padding-bottom: 15px
+    border-top: none
+    position: relative
+    font-weight: bold
+    font-size: 16px
+    background-color: $white
+    ul
+      max-width: 1090px
+      padding: 0
+      margin: 0 auto
+      list-style: none
+      display: flex
+      justify-content: space-between
+    img
+
+    .nav-login
+      padding: 15px 35px
+      top: 19%
+      right: 100px
+      background: #c02482
+      border-radius: 25px
       color: $white
       margin: auto
