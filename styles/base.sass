@@ -68,26 +68,94 @@ a
   &:hover
     text-decoration: underline
 
-@media (min-width: 992px)
+// top menu
+
+//mobile first
+nav
+  height: 140px
+  padding-top: 25px
+  line-height: 87px
+  padding-bottom: 15px
+  border-top: none
+  font-weight: bold
+  font-size: 16px
+  background-color: $white
+  ul
+    max-width: 1090px
+    padding: 0
+    margin: 0 auto
+    list-style: none
+    display: none
+    justify-content: space-between
+  img
+    position: absolute
+    left: 6.5%
+    top: 30px
+
+  .nav-login
+    padding: 15px 35px
+    top: 19%
+    right: 100px
+    background: #c02482
+    border-radius: 25px
+    color: $white
+    margin: auto
+
+// tablet
+@media (min-width: 768px)
   nav
-    //border: 1px solid lightgrey //test
     height: 140px
     padding-top: 25px
     line-height: 87px
     padding-bottom: 15px
     border-top: none
-    position: relative
     font-weight: bold
-    font-size: 16px
+    font-size: 14px
     background-color: $white
     ul
       max-width: 1090px
       padding: 0
-      margin: 0 auto
+      margin-right: 7%
+      margin-left: 23%
       list-style: none
       display: flex
       justify-content: space-between
-    img
+
+    .nav-login
+      padding: 10px 25px
+      top: 19%
+      right: 100px
+      background: #c02482
+      border-radius: 25px
+      color: $white
+      margin: auto
+
+  #main-menu-toggle
+    display: none
+
+//desktop
+@media (min-width: 992px)
+  nav
+    position: relative
+    height: 140px
+    padding-top: 25px
+    line-height: 87px
+    padding-bottom: 15px
+    border-top: none
+    font-weight: bold
+    font-size: 16px
+    background-color: $white
+    white-space: nowrap
+    ul
+      max-width: 1100px
+      padding: 0
+      margin-right: 7%
+      margin-left: 23%
+      list-style: none
+      display: flex
+      justify-content: space-between
+      li
+        white-space: nowrap
 
     .nav-login
       padding: 15px 35px
@@ -97,3 +165,6 @@ a
       border-radius: 25px
       color: $white
       margin: auto
+
+  #main-menu-toggle
+    display: none

@@ -89,25 +89,100 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 992px) {
+nav {
+  height: 140px;
+  padding-top: 25px;
+  line-height: 87px;
+  padding-bottom: 15px;
+  border-top: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+nav ul {
+  max-width: 1090px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  display: none;
+  justify-content: space-between;
+}
+
+nav img {
+  position: absolute;
+  left: 6.5%;
+  top: 30px;
+}
+
+nav .nav-login {
+  padding: 15px 35px;
+  top: 19%;
+  right: 100px;
+  background: #c02482;
+  border-radius: 25px;
+  color: #ffffff;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
   nav {
     height: 140px;
     padding-top: 25px;
     line-height: 87px;
     padding-bottom: 15px;
     border-top: none;
-    position: relative;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #ffffff;
   }
   nav ul {
     max-width: 1090px;
     padding: 0;
-    margin: 0 auto;
+    margin-right: 7%;
+    margin-left: 23%;
     list-style: none;
     display: flex;
     justify-content: space-between;
+  }
+  nav .nav-login {
+    padding: 10px 25px;
+    top: 19%;
+    right: 100px;
+    background: #c02482;
+    border-radius: 25px;
+    color: #ffffff;
+    margin: auto;
+  }
+  #main-menu-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    position: relative;
+    height: 140px;
+    padding-top: 25px;
+    line-height: 87px;
+    padding-bottom: 15px;
+    border-top: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff;
+    white-space: nowrap;
+  }
+  nav ul {
+    max-width: 1100px;
+    padding: 0;
+    margin-right: 7%;
+    margin-left: 23%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li {
+    white-space: nowrap;
   }
   nav .nav-login {
     padding: 15px 35px;
@@ -117,5 +192,8 @@ a:hover {
     border-radius: 25px;
     color: #ffffff;
     margin: auto;
+  }
+  #main-menu-toggle {
+    display: none;
   }
 }
