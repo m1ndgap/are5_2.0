@@ -76,7 +76,6 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  max-width: 1440px;
   margin: auto;
 }
 
@@ -125,6 +124,61 @@ nav .nav-login {
   margin: auto;
 }
 
+nav .menu-button {
+  padding: 5px 11px;
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  right: 5%;
+  top: 5%;
+  line-height: 5px;
+  height: 35px;
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid #4a4a4a;
+  cursor: pointer;
+}
+
+nav .menu-button:hover {
+  background-color: #dfdfdf;
+}
+
+@media (min-width: 576px) {
+  nav {
+    height: 140px;
+    padding-top: 25px;
+    line-height: 87px;
+    padding-bottom: 15px;
+    border-top: none;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+  nav ul {
+    max-width: 1090px;
+    padding: 0;
+    margin-right: 2%;
+    margin-left: 23%;
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+  }
+  nav .nav-login {
+    padding: 10px 25px;
+    top: 19%;
+    right: 100px;
+    background: #c02482;
+    border-radius: 25px;
+    color: #ffffff;
+    margin: auto;
+  }
+  nav img {
+    position: absolute;
+    left: 3.5%;
+    top: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   nav {
     height: 140px;
@@ -139,7 +193,7 @@ nav .nav-login {
   nav ul {
     max-width: 1090px;
     padding: 0;
-    margin-right: 7%;
+    margin-right: 2%;
     margin-left: 23%;
     list-style: none;
     display: flex;
@@ -154,7 +208,12 @@ nav .nav-login {
     color: #ffffff;
     margin: auto;
   }
-  #main-menu-toggle {
+  nav img {
+    position: absolute;
+    left: 1.5%;
+    top: 30px;
+  }
+  .menu-button {
     display: none;
   }
 }
@@ -176,13 +235,16 @@ nav .nav-login {
     max-width: 1100px;
     padding: 0;
     margin-right: 7%;
-    margin-left: 23%;
+    margin-left: 26%;
     list-style: none;
     display: flex;
     justify-content: space-between;
   }
   nav ul li {
     white-space: nowrap;
+  }
+  nav ul li:last-child {
+    margin-left: 56px;
   }
   nav .nav-login {
     padding: 15px 35px;
@@ -193,7 +255,12 @@ nav .nav-login {
     color: #ffffff;
     margin: auto;
   }
-  #main-menu-toggle {
+  nav img {
+    position: absolute;
+    left: 10%;
+    top: 30px;
+  }
+  .menu-button {
     display: none;
   }
 }

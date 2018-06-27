@@ -1,5 +1,6 @@
 ---global:
 
+— Should I care about how smooth the manual window resizing goes? Do people actually do it or 99.9% of users just open it on a certain viewport and thats it?
 
 
 
@@ -10,6 +11,8 @@ index:
   — Is it okay to vertically align text here with line height?
 
 -index_1_intro
+
+  — How do force background image to not rescale on resizing the window?
 
 
 
