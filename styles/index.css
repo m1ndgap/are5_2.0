@@ -1,6 +1,5 @@
 @charset "UTF-8";
 .index_1_intro {
-  height: 460px;
   background: url("../assets/images/glavnaya-hero-image.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,15 +26,16 @@
 
 .index_1_intro div {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .index_1_intro div .button {
-  padding: 15px 0px;
+  padding: 15px 15px;
+  width: auto;
 }
 
 @media (min-width: 768px) {
   .index_1_intro {
-    height: 660px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,11 +59,17 @@
     line-height: 34px;
     margin-top: 13px;
   }
+  .index_1_intro div {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  .index_1_intro div .button {
+    padding: 15px 15px;
+  }
 }
 
 @media (min-width: 992px) {
   .index_1_intro {
-    height: 660px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,6 +93,14 @@
     text-align: center;
     line-height: 34px;
     margin-top: 13px;
+  }
+  .index_1_intro div {
+    margin-top: 42px;
+    margin-bottom: 120px;
+  }
+  .index_1_intro div .button {
+    padding: 25px 15px;
+    width: 290px;
   }
 }
 

@@ -10,10 +10,8 @@ html
 .button
   margin: auto
   display: block
-  font-size: 18px
-  font-weight: bold
+  font-size: 15px
   color: $white
-  width: 290px
   text-align: center
   max-height: 70px
   border-radius: 35px
@@ -34,6 +32,23 @@ html
     -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#000000); /*IE 5.5-7*/
+
+@media (min-width: 768px)
+  .button
+    letter-spacing: 1px
+    padding: 25px 40px
+    display: block
+    font-size: 18px
+    font-weight: bold
+
+@media (min-width: 992px)
+  .button
+    letter-spacing: 1px
+    padding: 25px 40px
+    display: block
+    font-size: 18px
+    font-weight: bold
+
 
 .play_button
   width: 50px
@@ -199,7 +214,7 @@ nav
       max-width: 1100px
       padding: 0
       margin-right: 7%
-      margin-left: 26%
+      margin-left: 22%
       list-style: none
       display: flex
       justify-content: space-between
@@ -219,7 +234,7 @@ nav
       margin: auto
     img
       position: absolute
-      left: 9%
+      left: 6%
       top: 30px
 
   .menu-button

@@ -4,7 +4,6 @@
 // first block of index styles
 //
 .index_1_intro
-  height: 460px
   background: url('../assets/images/glavnaya-hero-image.png') no-repeat
   background-size: cover
   background-position: center
@@ -26,12 +25,13 @@
     margin-top: 13px
   div
     margin-top: 20px
+    margin-bottom: 50px
     .button
-      padding: 15px 0px
+      padding: 15px 15px
+      width: auto
 
 @media (min-width: 768px)
   .index_1_intro
-    height: 660px
     display: flex
     flex-direction: column
     align-items: center
@@ -52,10 +52,14 @@
       text-align: center
       line-height: 34px
       margin-top: 13px
+    div
+      margin-top: 20px
+      margin-bottom: 80px
+      .button
+        padding: 15px 15px
 
 @media (min-width: 992px)
   .index_1_intro
-    height: 660px
     display: flex
     flex-direction: column
     align-items: center
@@ -77,6 +81,13 @@
       text-align: center
       line-height: 34px
       margin-top: 13px
+    div
+      margin-top: 42px
+      margin-bottom: 120px
+      .button
+        padding: 25px 15px
+        width: 290px
+
 
 //
 // index 2 section, with all the flashy data and stuff
