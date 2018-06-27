@@ -1,6 +1,7 @@
 ---global:
 
-— Should I care about how smooth the manual window resizing goes? Do people actually do it or 99.9% of users just open it on a certain viewport and thats it?
+— Should I care about how smooth the manual window resizing goes (ie background images not scaling etc.)? 
+  Do people actually do it or 99.9% of users just open it on a certain viewport and that's it?
 
 
 

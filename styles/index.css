@@ -1,50 +1,92 @@
 @charset "UTF-8";
 .index_1_intro {
-  height: 660px;
+  height: 460px;
   background: url("../assets/images/glavnaya-hero-image.png") no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .index_1_intro h1 {
-  margin-top: 111px;
+  margin-top: 55px;
+  max-width: 70%;
   color: #ffffff;
-  font-size: 48px;
-  max-width: 820px;
+  font-size: 25px;
   text-align: center;
-  line-height: 59px;
-  letter-spacing: 1px;
 }
 
 .index_1_intro p {
-  max-width: 898px;
-  font-size: 24px;
+  max-width: 70%;
+  font-size: 15px;
   color: #ffffff;
   text-align: center;
-  line-height: 34px;
   margin-top: 13px;
 }
 
 .index_1_intro div {
-  margin-top: 42px;
+  margin-top: 20px;
 }
 
 .index_1_intro div .button {
-  padding: 25px 0px;
+  padding: 15px 0px;
 }
 
 @media (min-width: 768px) {
   .index_1_intro {
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: url("../assets/images/glavnaya-hero-image@2x.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .index_1_intro h1 {
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 36px;
+    max-width: 820px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .index_1_intro p {
+    max-width: 898px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 13px;
   }
 }
 
 @media (min-width: 992px) {
   .index_1_intro {
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: url("../assets/images/glavnaya-hero-image@3x.png") no-repeat;
-    background-size: 100%;
-    background-position: -20px;
+    background-size: cover;
+    background-position: center;
+  }
+  .index_1_intro h1 {
+    margin-top: 111px;
+    color: #ffffff;
+    font-size: 48px;
+    max-width: 820px;
+    text-align: center;
+    line-height: 59px;
+    letter-spacing: 1px;
+  }
+  .index_1_intro p {
+    max-width: 898px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 13px;
   }
 }
 
