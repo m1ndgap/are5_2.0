@@ -30,6 +30,7 @@
       padding: 15px 15px
       width: auto
 
+// Medium devices (tablets, 768px and up)
 @media (min-width: 768px)
   .index_1_intro
     display: flex
@@ -53,11 +54,13 @@
       line-height: 34px
       margin-top: 13px
     div
-      margin-top: 20px
-      margin-bottom: 80px
+      margin-top: 30px
+      margin-bottom: 60px
       .button
         padding: 15px 15px
+        font-weight: normal
 
+// Large devices (desktops, 992px and up)
 @media (min-width: 992px)
   .index_1_intro
     display: flex
@@ -135,8 +138,100 @@
     flex-direction: row
     justify-content: space-around
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_2_numbers
+    height: 623px
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      margin-top: 130px
+      text-align: center
+    span
+      font-size: 80px
+      color: $darkpink
+      padding-left: 100px
+      background-repeat: no-repeat
+      background-position: 11px 16px
+      display: inline-block
+    .cert
+      background-image: url('../assets/images/certificate_icon.png')
+    .graduation
+      margin-top: 110px
+      background-image: url('../assets/images/graduation_icon.png')
+    .presentation
+      background-image: url('../assets/images/presentation_icon.png')
+    .portrait
+      margin-top: 110px
+      background-image: url('../assets/images/portrait_icon.png')
+    .column_1
+      display: flex
+      flex-direction: column
+    .column_2
+      display: flex
+      flex-direction: column
+    p
+      max-width: 240px
+      font-size: 24px
+      text-align: center
+      margin-left: 30px
+      margin-top: 26px
+    .i2_wrapper
+      margin-top: 65px
+      padding: 0px 198px 0px 273px
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_2_numbers
+    height: 623px
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      margin-top: 130px
+      text-align: center
+    span
+      font-size: 80px
+      color: $darkpink
+      padding-left: 100px
+      background-repeat: no-repeat
+      background-position: 11px 16px
+      display: inline-block
+    .cert
+      background-image: url('../assets/images/certificate_icon.png')
+    .graduation
+      margin-top: 110px
+      background-image: url('../assets/images/graduation_icon.png')
+    .presentation
+      background-image: url('../assets/images/presentation_icon.png')
+    .portrait
+      margin-top: 110px
+      background-image: url('../assets/images/portrait_icon.png')
+    .column_1
+      display: flex
+      flex-direction: column
+    .column_2
+      display: flex
+      flex-direction: column
+    p
+      max-width: 240px
+      font-size: 24px
+      text-align: center
+      margin-left: 30px
+      margin-top: 26px
+    .i2_wrapper
+      margin-top: 65px
+      padding: 0px 198px 0px 273px
+      display: flex
+      flex-direction: row
+      justify-content: space-around
 
 
+//
+// styles for experts section
+//
 .index_3_experts
   // border: 1px solid red
   height: 950px
@@ -207,7 +302,153 @@
       font-family: 'Open Sans', sans-serif
       width: 80px
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_3_experts
+    // border: 1px solid red
+    height: 950px
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 28px
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      margin-top: 117px
+      text-align: center
+    .button
+      display: block
+      width: 188px
+    .i3_experts_wrapper
+      display: flex
+      flex-direction: row
+      > div
+        display: flex
+        flex-direction: column
+        max-width: 233px
+        margin: 55px 0px 57px 0px
+        text-align: center
+        &:first-child
+          // margin-left: 120px
+        &:nth-child(2)
+          margin-left: 115px
+          margin-right: 115px
+        h2
+          font-size: 18px
+          line-height: 26px
+          font-weight: 550
+          margin-bottom: 10px
+          span
+            font-size: 24px
+            display: block
+            font-weight: 600
+        img
+          margin-bottom: 22px
+          height: 233px
+          width: 233px
+          border-radius: 50%
+        p
+          line-height: 20px
+    .i3_video
+      position: relative
+    .i3_play_background
+      opacity: 0
+      position: absolute
+      top: 0px
+      height: 233px
+      width: 233px
+      background-color: rgba(192, 36, 130, 0.6)
+      border-radius: 50%
+      display: flex
+      flex-direction: column
+      text-align: center
+      cursor: pointer
+      &:hover
+        opacity: 1
+        cursor: pointer
+      p
+        display: block
+        margin: 0px auto 0px auto
+        color: white
+        font-size: 18px
+        font-family: 'Open Sans', sans-serif
+        width: 80px
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_3_experts
+    // border: 1px solid red
+    height: 950px
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 28px
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      margin-top: 117px
+      text-align: center
+    .button
+      display: block
+      width: 188px
+    .i3_experts_wrapper
+      display: flex
+      flex-direction: row
+      > div
+        display: flex
+        flex-direction: column
+        max-width: 233px
+        margin: 55px 0px 57px 0px
+        text-align: center
+        &:first-child
+          // margin-left: 120px
+        &:nth-child(2)
+          margin-left: 115px
+          margin-right: 115px
+        h2
+          font-size: 18px
+          line-height: 26px
+          font-weight: 550
+          margin-bottom: 10px
+          span
+            font-size: 24px
+            display: block
+            font-weight: 600
+        img
+          margin-bottom: 22px
+          height: 233px
+          width: 233px
+          border-radius: 50%
+        p
+          line-height: 20px
+    .i3_video
+      position: relative
+    .i3_play_background
+      opacity: 0
+      position: absolute
+      top: 0px
+      height: 233px
+      width: 233px
+      background-color: rgba(192, 36, 130, 0.6)
+      border-radius: 50%
+      display: flex
+      flex-direction: column
+      text-align: center
+      cursor: pointer
+      &:hover
+        opacity: 1
+        cursor: pointer
+      p
+        display: block
+        margin: 0px auto 0px auto
+        color: white
+        font-size: 18px
+        font-family: 'Open Sans', sans-serif
+        width: 80px
+
+//
+// styles for knowledge base
+//
 .index_4_kbase
   display: flex
   flex-direction: column
@@ -254,6 +495,104 @@
   .button
     padding: 25px 0px
     margin-top: 40px
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_4_kbase
+    display: flex
+    flex-direction: column
+    align-items: center
+    color: $white
+    height: 890px
+    background-image: url('../assets/images/i4_background.png')
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      text-align: center
+      margin-top: 95px
+    p
+      font-size: 24px
+      text-align: center
+      max-width: 890px
+      margin-top: 54px
+      line-height: 34px
+    .i4_icons
+      display: flex
+      flex-direction: row
+      p
+        margin-top: 40px
+        font-size: 18px
+      span
+        font-size: 60px
+        background-repeat: no-repeat
+        padding-left: 100px
+      div
+        margin-top: 50px
+        padding: 0px 60px 0px 60px
+        &:nth-child(2)
+          border-left: 1px solid $grey
+          border-right: 1px solid $grey
+      .imac
+        background-image: url('../assets/images/imac_icon.png')
+        background-position: -2px 12px
+      .headphones
+        background-image: url('../assets/images/headphones_icon.png')
+        background-position: -6px -1px
+      .pie_charts
+        background-image: url('../assets/images/pie_charts_icon.png')
+        background-position: -4px -6px
+    .button
+      padding: 25px 0px
+      margin-top: 40px
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_4_kbase
+    display: flex
+    flex-direction: column
+    align-items: center
+    color: $white
+    height: 890px
+    background-image: url('../assets/images/i4_background.png')
+    h1
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+      text-align: center
+      margin-top: 95px
+    p
+      font-size: 24px
+      text-align: center
+      max-width: 890px
+      margin-top: 54px
+      line-height: 34px
+    .i4_icons
+      display: flex
+      flex-direction: row
+      p
+        margin-top: 40px
+        font-size: 18px
+      span
+        font-size: 60px
+        background-repeat: no-repeat
+        padding-left: 100px
+      div
+        margin-top: 50px
+        padding: 0px 60px 0px 60px
+        &:nth-child(2)
+          border-left: 1px solid $grey
+          border-right: 1px solid $grey
+      .imac
+        background-image: url('../assets/images/imac_icon.png')
+        background-position: -2px 12px
+      .headphones
+        background-image: url('../assets/images/headphones_icon.png')
+        background-position: -6px -1px
+      .pie_charts
+        background-image: url('../assets/images/pie_charts_icon.png')
+        background-position: -4px -6px
+    .button
+      padding: 25px 0px
+      margin-top: 40px
 
 .index_5_student_feedback
   display: flex
@@ -312,7 +651,126 @@
     .active
       background-color: $teal
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_5_student_feedback
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+      letter-spacing: -0.7px
+      margin-top: 135px
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+    p
+      max-width: 1067px
+      font-family: 'Open Sans'
+      font-style: italic
+      font-weight: 300
+      font-size: 36px
+      text-align: center
+      line-height: 52px
+    .i5_signature
+      margin-top: 10px
+      position: relative
+      padding-left: 100px
+      span
+        letter-spacing: 0.55px
+        font-size: 18px
+        font-family: 'Open Sans SemiBold'
+        text-align: left
+      p
+        font-style: normal
+        font-family: 'Open Sans Light'
+        font-size: 16px
+        text-align: left
+        line-height: 6px
+      &:after
+        position: absolute
+        left: -2px
+        top: -14px
+        display: block
+        content: ' '
+        height: 82px
+        width: 82px
+        background-image: url('../assets/images/i5_portrait.png')
+        background-color: yellow
+    .i5-slider
+      margin-top: 70px
+      width: 107px
+      height: 17px
+      display: flex
+      justify-content: space-between
+      div
+        cursor: pointer
+        height: 17px
+        width: 17px
+        border-radius: 50%
+        background-color: $grey
+      .active
+        background-color: $teal
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_5_student_feedback
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+      letter-spacing: -0.7px
+      margin-top: 135px
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+    p
+      max-width: 1067px
+      font-family: 'Open Sans'
+      font-style: italic
+      font-weight: 300
+      font-size: 36px
+      text-align: center
+      line-height: 52px
+    .i5_signature
+      margin-top: 10px
+      position: relative
+      padding-left: 100px
+      span
+        letter-spacing: 0.55px
+        font-size: 18px
+        font-family: 'Open Sans SemiBold'
+        text-align: left
+      p
+        font-style: normal
+        font-family: 'Open Sans Light'
+        font-size: 16px
+        text-align: left
+        line-height: 6px
+      &:after
+        position: absolute
+        left: -2px
+        top: -14px
+        display: block
+        content: ' '
+        height: 82px
+        width: 82px
+        background-image: url('../assets/images/i5_portrait.png')
+        background-color: yellow
+    .i5-slider
+      margin-top: 70px
+      width: 107px
+      height: 17px
+      display: flex
+      justify-content: space-between
+      div
+        cursor: pointer
+        height: 17px
+        width: 17px
+        border-radius: 50%
+        background-color: $grey
+      .active
+        background-color: $teal
+//
+// our programs
+//
 .index_6_our_programs
   display: flex
   flex-direction: column
@@ -377,21 +835,152 @@
               height: 20px
               border-radius: 10px
               background-color: $teal
-
         p
           margin-top: 5px
           margin-left: 35px
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_6_our_programs
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 135px
+    h1
+      letter-spacing: -0.7px
+      margin-top: 137px
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+    .i6_block
+      margin-top: 60px
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      div
+        &:nth-child(1)
+          padding-bottom: 15px
+          line-height: 31px
+          font-family: 'Open Sans', sans-serif
+          font-size: 24px
+          border-bottom: 5px solid $darkpink
+          width: auto
+          align-self: flex-start
+      ul
+        font-size: 18px
+        margin-top: 0px
+        margin-left: auto
+        width: 65%
+        li
+          list-style: none
+          span
+            display: inline-block
+            padding-left: 35px
+            background-image: url('../assets/images/book_icon.png')
+            background-repeat: no-repeat
+            background-position: 0px
+            text-decoration: underline
+            margin-top: 5px
+            &:nth-child(1)
+              margin-top: 0px
+            a
+              margin-top: 5px
+              display: inline-block
+              color: $darkpink
+              text-decoration: underline
+            .new
+              position: relative
+              &:after
+                content: "Новая программа"
+                font-size: 12px
+                color: $white
+                text-transform: uppercase
+                text-align: center
+                font-family: 'Open Sans SemiBold'
+                letter-spacing: 0.7px
+                line-height: 21px
+                display: inline-block
+                margin-left: 10px
+                right: 1px
+                width: 150px
+                height: 20px
+                border-radius: 10px
+                background-color: $teal
+          p
+            margin-top: 5px
+            margin-left: 35px
 
-
-
-
-
-
-
-
-
-
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_6_our_programs
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 135px
+    h1
+      letter-spacing: -0.7px
+      margin-top: 137px
+      font-size: 36px
+      font-family: 'Open Sans SemiBold'
+    .i6_block
+      margin-top: 60px
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      div
+        &:nth-child(1)
+          padding-bottom: 15px
+          line-height: 31px
+          font-family: 'Open Sans', sans-serif
+          font-size: 24px
+          border-bottom: 5px solid $darkpink
+          width: auto
+          align-self: flex-start
+      ul
+        font-size: 18px
+        margin-top: 0px
+        margin-left: auto
+        width: 65%
+        li
+          list-style: none
+          span
+            display: inline-block
+            padding-left: 35px
+            background-image: url('../assets/images/book_icon.png')
+            background-repeat: no-repeat
+            background-position: 0px
+            text-decoration: underline
+            margin-top: 5px
+            &:nth-child(1)
+              margin-top: 0px
+            a
+              margin-top: 5px
+              display: inline-block
+              color: $darkpink
+              text-decoration: underline
+            .new
+              position: relative
+              &:after
+                content: "Новая программа"
+                font-size: 12px
+                color: $white
+                text-transform: uppercase
+                text-align: center
+                font-family: 'Open Sans SemiBold'
+                letter-spacing: 0.7px
+                line-height: 21px
+                display: inline-block
+                margin-left: 10px
+                right: 1px
+                width: 150px
+                height: 20px
+                border-radius: 10px
+                background-color: $teal
+          p
+            margin-top: 5px
+            margin-left: 35px
+//
+// contact form styles
+//
 .index_7_contact_form
   padding: 90px 200px 85px 200px
   display: flex
@@ -456,10 +1045,6 @@
         border-radius: 35px
         border: none
         height: 50px
-
-
-
-
   h1
     font-family: 'Open Sans SemiBold'
     font-size: 48px
@@ -468,8 +1053,157 @@
     font-size: 24px
     color: $white
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_7_contact_form
+    padding: 90px 200px 85px 200px
+    display: flex
+    flex-direction: row
+    background-image: url('../assets/images/i7-background.png')
+    .i7_wrapper
+      display: flex
+      div
+        max-width: 500px
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        &:nth-child(1)
+          padding-right: 40px
+          max-width: 487px
+          h1
+            margin-top: -10px
+          p
+            &:nth-child(2)
+              max-width: 434px
+        &:nth-child(2)
+          padding-left: 20px
+          > form
+            min-width: 400px
+            margin-left: 10%
+            margin-right: 10%
+            display: flex
+            flex-direction: row
+            align-items: flex-end
+            flex-wrap: wrap
+            justify-content: space-between
+          input
+            outline: none
+            padding-left: 33px
+            color: $darkgrey
+            background-color: rgba(255, 255, 255, 0.8)
+            font-size: 18px
+            display: inline-block
+            height: 50px
+            border-radius: 35px
+            width: 377px
+            border: none
+            margin-bottom: 20px
+          input[name='name']
+            width: 157px
+          input[name='lastname']
+            width: 157px
+          input[type='submit']
+            width: 400px
+            height: 70px
+            margin: 0px
+            margin-top: 40px
+            background-color: $teal
+            color: $white
+        select
+          outline: none
+          padding-left: 33px
+          color: $darkgrey
+          background-color: rgba(255, 255, 255, 0.8)
+          font-size: 18px
+          width: 400px
+          border-radius: 35px
+          border: none
+          height: 50px
+    h1
+      font-family: 'Open Sans SemiBold'
+      font-size: 48px
+      color: $white
+    p
+      font-size: 24px
+      color: $white
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_7_contact_form
+    padding: 90px 200px 85px 200px
+    display: flex
+    flex-direction: row
+    background-image: url('../assets/images/i7-background.png')
+    .i7_wrapper
+      display: flex
+      div
+        max-width: 500px
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        &:nth-child(1)
+          padding-right: 40px
+          max-width: 487px
+          h1
+            margin-top: -10px
+          p
+            &:nth-child(2)
+              max-width: 434px
+        &:nth-child(2)
+          padding-left: 20px
+          > form
+            min-width: 400px
+            margin-left: 10%
+            margin-right: 10%
+            display: flex
+            flex-direction: row
+            align-items: flex-end
+            flex-wrap: wrap
+            justify-content: space-between
+          input
+            outline: none
+            padding-left: 33px
+            color: $darkgrey
+            background-color: rgba(255, 255, 255, 0.8)
+            font-size: 18px
+            display: inline-block
+            height: 50px
+            border-radius: 35px
+            width: 377px
+            border: none
+            margin-bottom: 20px
+          input[name='name']
+            width: 157px
+          input[name='lastname']
+            width: 157px
+          input[type='submit']
+            width: 400px
+            height: 70px
+            margin: 0px
+            margin-top: 40px
+            background-color: $teal
+            color: $white
+        select
+          outline: none
+          padding-left: 33px
+          color: $darkgrey
+          background-color: rgba(255, 255, 255, 0.8)
+          font-size: 18px
+          width: 400px
+          border-radius: 35px
+          border: none
+          height: 50px
+    h1
+      font-family: 'Open Sans SemiBold'
+      font-size: 48px
+      color: $white
+    p
+      font-size: 24px
+      color: $white
 
+//
+// footer styles
+//
 .index_footer
   display: flex
   flex-direction: column
@@ -512,3 +1246,93 @@
   .copyright
     color: $grey
     margin-bottom: 40px
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .index_footer
+    display: flex
+    flex-direction: column
+    align-items: center
+    img
+      margin-top: 115px
+    p
+      margin: 10px 50px 10px 50px
+    nav
+      ul
+        list-style: none
+        display: flex
+        justify-content: space-between
+        max-width: 800px
+        margin: 0px 100px 0px 100px
+        li
+          margin: 50px 20px 50px 20px
+    .social-networks
+      padding: 0px
+      max-width: 250px
+      margin: 30px 100px 30px 100px
+      list-style: none
+      display: flex
+      justify-content: space-between
+      li
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        background-repeat: no-repeat
+        margin-right: 20px
+        cursor: pointer
+      .social-vk
+        background-image: url('../assets/images/social-vk.png')
+      .social-fb
+        background-image: url('../assets/images/social-fb.png')
+      .social-twi
+        background-image: url('../assets/images/social-twi.png')
+      .social-inst
+        background-image: url('../assets/images/social-inst.png')
+    .copyright
+      color: $grey
+      margin-bottom: 40px
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+  .index_footer
+    display: flex
+    flex-direction: column
+    align-items: center
+    img
+      margin-top: 115px
+    p
+      margin: 10px 50px 10px 50px
+    nav
+      ul
+        list-style: none
+        display: flex
+        justify-content: space-between
+        max-width: 800px
+        margin: 0px 100px 0px 100px
+        li
+          margin: 50px 20px 50px 20px
+    .social-networks
+      padding: 0px
+      max-width: 250px
+      margin: 30px 100px 30px 100px
+      list-style: none
+      display: flex
+      justify-content: space-between
+      li
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        background-repeat: no-repeat
+        margin-right: 20px
+        cursor: pointer
+      .social-vk
+        background-image: url('../assets/images/social-vk.png')
+      .social-fb
+        background-image: url('../assets/images/social-fb.png')
+      .social-twi
+        background-image: url('../assets/images/social-twi.png')
+      .social-inst
+        background-image: url('../assets/images/social-inst.png')
+    .copyright
+      color: $grey
+      margin-bottom: 40px
