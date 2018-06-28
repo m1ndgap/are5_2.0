@@ -96,97 +96,103 @@
 // index 2 section, with all the flashy data and stuff
 //
 .index_2_numbers
-  height: 623px
   h1
-    font-size: 36px
+    font-size: 28px
     font-family: 'Open Sans SemiBold'
-    margin-top: 130px
+    margin-top: 55px
     text-align: center
   span
-    font-size: 80px
+    font-size: 60px
     color: $darkpink
-    padding-left: 100px
     background-repeat: no-repeat
-    background-position: 11px 16px
+    background-position: 20px 11px
+    background-size: 51px
     display: inline-block
+  .i2-numbers
+    flex: 0 0 100%
+    align-items: center
+  .i2-column
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+  .i2-icon
+    background-repeat: no-repeat
+    padding-left: 90px
   .cert
-    background-image: url('../assets/images/certificate_icon.png')
-  .graduation
-    margin-top: 110px
-    background-image: url('../assets/images/graduation_icon.png')
+    span
+      background-image: url('../assets/images/certificate_icon.png')
   .presentation
-    background-image: url('../assets/images/presentation_icon.png')
+    span
+      background-image: url('../assets/images/presentation_icon.png')
+  .graduation
+    span
+      background-image: url('../assets/images/graduation_icon.png')
   .portrait
-    margin-top: 110px
-    background-image: url('../assets/images/portrait_icon.png')
-  .column_1
-    display: flex
-    flex-direction: column
-  .column_2
-    display: flex
-    flex-direction: column
+    span
+      background-image: url('../assets/images/portrait_icon.png')
   p
     max-width: 240px
     font-size: 24px
     text-align: center
-    margin-left: 30px
-    margin-top: 26px
   .i2_wrapper
-    margin-top: 65px
-    padding: 0px 198px 0px 273px
+    margin-top: 35px
+    margin-bottom: 20px
     display: flex
-    flex-direction: row
-    justify-content: space-around
+    justify-content: center
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px)
   .index_2_numbers
-    height: 623px
     h1
       font-size: 36px
       font-family: 'Open Sans SemiBold'
-      margin-top: 130px
+      margin-top: 70px
       text-align: center
     span
-      font-size: 80px
+      font-size: 60px
       color: $darkpink
-      padding-left: 100px
       background-repeat: no-repeat
-      background-position: 11px 16px
+      background-position: 20px 11px
+      background-size: 51px
       display: inline-block
+    .i2-numbers
+      flex: 0 0 44%
+    .i2-column
+      max-width: 600px
+      display: flex
+      flex-flow: row wrap
+      justify-content: space-between
+    .i2-icon
+      background-repeat: no-repeat
+      padding-left: 90px
     .cert
-      background-image: url('../assets/images/certificate_icon.png')
-    .graduation
-      margin-top: 110px
-      background-image: url('../assets/images/graduation_icon.png')
+      span
+        background-image: url('../assets/images/certificate_icon.png')
     .presentation
-      background-image: url('../assets/images/presentation_icon.png')
+      span
+        background-image: url('../assets/images/presentation_icon.png')
+    .graduation
+      margin-top: 50px
+      span
+        background-image: url('../assets/images/graduation_icon.png')
     .portrait
-      margin-top: 110px
-      background-image: url('../assets/images/portrait_icon.png')
-    .column_1
-      display: flex
-      flex-direction: column
-    .column_2
-      display: flex
-      flex-direction: column
+      margin-top: 50px
+      span
+        background-image: url('../assets/images/portrait_icon.png')
     p
       max-width: 240px
       font-size: 24px
       text-align: center
-      margin-left: 30px
-      margin-top: 26px
     .i2_wrapper
       margin-top: 65px
-      padding: 0px 198px 0px 273px
+      margin-bottom: 50px
       display: flex
-      flex-direction: row
-      justify-content: space-around
+      align-items: center
+      justify-content: center
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px)
   .index_2_numbers
-    height: 623px
     h1
       font-size: 36px
       font-family: 'Open Sans SemiBold'
@@ -195,38 +201,47 @@
     span
       font-size: 80px
       color: $darkpink
-      padding-left: 100px
       background-repeat: no-repeat
       background-position: 11px 16px
+      background-size: auto
       display: inline-block
+    .i2-numbers
+      flex: 0 0 44%
+    .i2-column
+      max-width: 775px
+      display: flex
+      flex-flow: row wrap
+      justify-content: space-between
+    .i2-icon
+      background-repeat: no-repeat
+      padding-left: 110px
     .cert
-      background-image: url('../assets/images/certificate_icon.png')
-    .graduation
-      margin-top: 110px
-      background-image: url('../assets/images/graduation_icon.png')
+      span
+        background-image: url('../assets/images/certificate_icon.png')
     .presentation
-      background-image: url('../assets/images/presentation_icon.png')
+      margin-left: 10%
+      span
+        background-image: url('../assets/images/presentation_icon.png')
+    .graduation
+      margin-top: 117px
+      span
+        background-image: url('../assets/images/graduation_icon.png')
     .portrait
-      margin-top: 110px
-      background-image: url('../assets/images/portrait_icon.png')
-    .column_1
-      display: flex
-      flex-direction: column
-    .column_2
-      display: flex
-      flex-direction: column
+      margin-top: 117px
+      span
+        background-image: url('../assets/images/portrait_icon.png')
     p
       max-width: 240px
       font-size: 24px
       text-align: center
-      margin-left: 30px
-      margin-top: 26px
     .i2_wrapper
       margin-top: 65px
-      padding: 0px 198px 0px 273px
+      margin-bottom: 50px
       display: flex
-      flex-direction: row
-      justify-content: space-around
+      align-items: center
+      justify-content: center
+
+
 
 
 //

@@ -105,130 +105,128 @@
   }
 }
 
-.index_2_numbers {
-  height: 623px;
-}
-
 .index_2_numbers h1 {
-  font-size: 36px;
+  font-size: 28px;
   font-family: 'Open Sans SemiBold';
-  margin-top: 130px;
+  margin-top: 55px;
   text-align: center;
 }
 
 .index_2_numbers span {
-  font-size: 80px;
+  font-size: 60px;
   color: #c02482;
-  padding-left: 100px;
   background-repeat: no-repeat;
-  background-position: 11px 16px;
+  background-position: 20px 11px;
+  background-size: 51px;
   display: inline-block;
 }
 
-.index_2_numbers .cert {
+.index_2_numbers .i2-numbers {
+  flex: 0 0 100%;
+  align-items: center;
+}
+
+.index_2_numbers .i2-column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.index_2_numbers .i2-icon {
+  background-repeat: no-repeat;
+  padding-left: 90px;
+}
+
+.index_2_numbers .cert span {
   background-image: url("../assets/images/certificate_icon.png");
 }
 
-.index_2_numbers .graduation {
-  margin-top: 110px;
-  background-image: url("../assets/images/graduation_icon.png");
-}
-
-.index_2_numbers .presentation {
+.index_2_numbers .presentation span {
   background-image: url("../assets/images/presentation_icon.png");
 }
 
-.index_2_numbers .portrait {
-  margin-top: 110px;
+.index_2_numbers .graduation span {
+  background-image: url("../assets/images/graduation_icon.png");
+}
+
+.index_2_numbers .portrait span {
   background-image: url("../assets/images/portrait_icon.png");
-}
-
-.index_2_numbers .column_1 {
-  display: flex;
-  flex-direction: column;
-}
-
-.index_2_numbers .column_2 {
-  display: flex;
-  flex-direction: column;
 }
 
 .index_2_numbers p {
   max-width: 240px;
   font-size: 24px;
   text-align: center;
-  margin-left: 30px;
-  margin-top: 26px;
 }
 
 .index_2_numbers .i2_wrapper {
-  margin-top: 65px;
-  padding: 0px 198px 0px 273px;
+  margin-top: 35px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-  .index_2_numbers {
-    height: 623px;
-  }
   .index_2_numbers h1 {
     font-size: 36px;
     font-family: 'Open Sans SemiBold';
-    margin-top: 130px;
+    margin-top: 70px;
     text-align: center;
   }
   .index_2_numbers span {
-    font-size: 80px;
+    font-size: 60px;
     color: #c02482;
-    padding-left: 100px;
     background-repeat: no-repeat;
-    background-position: 11px 16px;
+    background-position: 20px 11px;
+    background-size: 51px;
     display: inline-block;
   }
-  .index_2_numbers .cert {
+  .index_2_numbers .i2-numbers {
+    flex: 0 0 44%;
+  }
+  .index_2_numbers .i2-column {
+    max-width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .index_2_numbers .i2-icon {
+    background-repeat: no-repeat;
+    padding-left: 90px;
+  }
+  .index_2_numbers .cert span {
     background-image: url("../assets/images/certificate_icon.png");
   }
-  .index_2_numbers .graduation {
-    margin-top: 110px;
-    background-image: url("../assets/images/graduation_icon.png");
-  }
-  .index_2_numbers .presentation {
+  .index_2_numbers .presentation span {
     background-image: url("../assets/images/presentation_icon.png");
   }
+  .index_2_numbers .graduation {
+    margin-top: 50px;
+  }
+  .index_2_numbers .graduation span {
+    background-image: url("../assets/images/graduation_icon.png");
+  }
   .index_2_numbers .portrait {
-    margin-top: 110px;
+    margin-top: 50px;
+  }
+  .index_2_numbers .portrait span {
     background-image: url("../assets/images/portrait_icon.png");
-  }
-  .index_2_numbers .column_1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .index_2_numbers .column_2 {
-    display: flex;
-    flex-direction: column;
   }
   .index_2_numbers p {
     max-width: 240px;
     font-size: 24px;
     text-align: center;
-    margin-left: 30px;
-    margin-top: 26px;
   }
   .index_2_numbers .i2_wrapper {
     margin-top: 65px;
-    padding: 0px 198px 0px 273px;
+    margin-bottom: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media (min-width: 992px) {
-  .index_2_numbers {
-    height: 623px;
-  }
   .index_2_numbers h1 {
     font-size: 36px;
     font-family: 'Open Sans SemiBold';
@@ -238,46 +236,56 @@
   .index_2_numbers span {
     font-size: 80px;
     color: #c02482;
-    padding-left: 100px;
     background-repeat: no-repeat;
     background-position: 11px 16px;
+    background-size: auto;
     display: inline-block;
   }
-  .index_2_numbers .cert {
+  .index_2_numbers .i2-numbers {
+    flex: 0 0 44%;
+  }
+  .index_2_numbers .i2-column {
+    max-width: 775px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .index_2_numbers .i2-icon {
+    background-repeat: no-repeat;
+    padding-left: 110px;
+  }
+  .index_2_numbers .cert span {
     background-image: url("../assets/images/certificate_icon.png");
   }
-  .index_2_numbers .graduation {
-    margin-top: 110px;
-    background-image: url("../assets/images/graduation_icon.png");
-  }
   .index_2_numbers .presentation {
+    margin-left: 10%;
+  }
+  .index_2_numbers .presentation span {
     background-image: url("../assets/images/presentation_icon.png");
   }
+  .index_2_numbers .graduation {
+    margin-top: 117px;
+  }
+  .index_2_numbers .graduation span {
+    background-image: url("../assets/images/graduation_icon.png");
+  }
   .index_2_numbers .portrait {
-    margin-top: 110px;
+    margin-top: 117px;
+  }
+  .index_2_numbers .portrait span {
     background-image: url("../assets/images/portrait_icon.png");
-  }
-  .index_2_numbers .column_1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .index_2_numbers .column_2 {
-    display: flex;
-    flex-direction: column;
   }
   .index_2_numbers p {
     max-width: 240px;
     font-size: 24px;
     text-align: center;
-    margin-left: 30px;
-    margin-top: 26px;
   }
   .index_2_numbers .i2_wrapper {
     margin-top: 65px;
-    padding: 0px 198px 0px 273px;
+    margin-bottom: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
   }
 }
 
