@@ -121,15 +121,20 @@
   display: inline-block;
 }
 
-.index_2_numbers .i2-numbers {
-  flex: 0 0 100%;
-  align-items: center;
+.index_2_numbers .i2_wrapper {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .index_2_numbers .i2-column {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+}
+
+.index_2_numbers .i2-numbers {
+  flex: 0 0 100%;
 }
 
 .index_2_numbers .i2-icon {
@@ -155,15 +160,8 @@
 
 .index_2_numbers p {
   max-width: 240px;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
-}
-
-.index_2_numbers .i2_wrapper {
-  margin-top: 35px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
 }
 
 @media (min-width: 768px) {
