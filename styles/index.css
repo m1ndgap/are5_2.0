@@ -130,11 +130,7 @@
 
 .index_2_numbers .i2-column {
   display: flex;
-  flex-flow: row wrap;
-}
-
-.index_2_numbers .i2-numbers {
-  flex: 0 0 100%;
+  flex-flow: column nowrap;
 }
 
 .index_2_numbers .i2-icon {
