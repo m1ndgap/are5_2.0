@@ -1,6 +1,6 @@
 ---global:
 
-— Should I care about how smooth the manual window resizing goes (ie background images not scaling etc.)? 
+— Should I care about how smooth the manual window resizing goes (ie background images not scaling etc.)?
   Do people actually do it or 99.9% of users just open it on a certain viewport and that's it?
 
 
@@ -23,6 +23,8 @@ index:
 
 
 ---index_3_experts
+
+ – Cant figure out the way to properly position transparent play button overlay over the portrait without using fixed width.
 
 
 
