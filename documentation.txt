@@ -24,8 +24,8 @@ index:
 
 ---index_3_experts
 
- – Cant figure out the way to properly position transparent play button overlay over the portrait without using fixed width.
-
+  – Cant figure out the way to properly position transparent play button overlay over the portrait without using fixed width.
+  – I really hate that I have to use fixed height for flex elements in mobile view to make elements wrap in column view, is there a way to do it without fixed height?
 
 
 ---index_4_icons

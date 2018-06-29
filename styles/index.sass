@@ -251,10 +251,16 @@
   flex-flow: column wrap
   align-items: center
   margin-bottom: 28px
+  .i3-mobile-vid
+    margin-top: 10px
+    color: $darkpink
+    font-size: 15px
+    text-decoration: underline
   h1
     font-size: 25px
     font-family: 'Open Sans SemiBold'
     margin-top: 55px
+    margin-bottom: 40px
     text-align: center
   .button
     display: block
@@ -266,6 +272,7 @@
     text-align: center
     margin-bottom: 30px
   .i3_experts_wrapper
+    margin-left: -30px
     display: flex
     flex-flow: column wrap
     > div
@@ -273,9 +280,11 @@
       flex-flow: column wrap
       flex: 0 0 100%
       max-width: 500px
+      height: 150px
       // margin: 35px 0px 20px 0px
       text-align: left
       justify-content: left
+      margin-bottom: 30px
       //&:first-child
         // margin-left: 120px
       //&:nth-child(2)
@@ -283,19 +292,19 @@
         margin-right: 115px
       h2
         font-size: 18px
-        line-height: 20px
         font-weight: 550
-        margin-bottom: 5px
+        margin-bottom: 0px
+        margin-top: 0px
         width: 200px
-        flex: 0 0 30%
+        flex: 0 0 23%
         span
           font-size: 24px
           display: block
           font-weight: 600
       img
         margin-bottom: 22px
-        height: 50px
-        width: 50px
+        height: 80px
+        width: 80px
         border-radius: 50%
       p
         width: 200px
@@ -303,9 +312,13 @@
         font-size: 12px
         flex: 0 0 30%
   .i3_video
-    width: 50px
+    width: 80px
+    // flex 100% doesnt seem to work to make this div push text into wrapping
     flex: 0 0 100%
     position: relative
+    // I have to use this and I dont like it
+    height: 150px
+    margin-right: 20px
   .i3_play_background
     opacity: 0
     position: absolute
@@ -337,6 +350,8 @@
     flex-direction: column
     align-items: center
     margin-bottom: 28px
+    .i3-mobile-vid
+      display: none
     h1
       font-size: 30px
       font-family: 'Open Sans SemiBold'
@@ -352,6 +367,7 @@
       text-align: center
       margin-bottom: 50px
     .i3_experts_wrapper
+      margin-left: 0px
       display: flex
       flex-flow: row
       justify-content: space-between
@@ -362,6 +378,7 @@
         text-align: center
         align-items: center
         margin: 35px 0px 30px 0px
+        height: auto
         &:first-child
           // margin-left: 120px
         &:nth-child(2)
@@ -372,6 +389,7 @@
           line-height: 20px
           font-weight: 550
           margin-bottom: 5px
+          margin-top: 15px
           flex: 0 0 auto
           span
             font-size: 18px
@@ -388,7 +406,10 @@
     .i3_video
       position: relative
       width: 150px
+      height: 150px
       flex: 0 0 auto
+      margin-top: 25px
+      margin-right: 0px
     .i3_play_background
       opacity: 0
       position: absolute
@@ -419,6 +440,8 @@
     flex-direction: column
     align-items: center
     margin-bottom: 28px
+    .i3-mobile-vid
+      display: none
     h1
       font-size: 36px
       font-family: 'Open Sans SemiBold'
@@ -432,8 +455,8 @@
       padding-right: 10px
       text-align: center
       margin-bottom: 118px
-
     .i3_experts_wrapper
+      margin-left: 0px
       display: flex
       flex-flow: row wrap
       > div
@@ -443,7 +466,8 @@
         text-align: center
         justify-content: flex-start
         align-items: center
-        margin: 55px 0px 40px 0px
+        margin: 15px 0px 40px 0px
+        height: auto
         &:first-child
           // margin-left: 120px
         &:nth-child(2)
@@ -454,6 +478,7 @@
           line-height: 26px
           font-weight: 550
           margin-bottom: 10px
+          margin-top: 35px
           flex: 0 0 auto
           span
             font-size: 24px
@@ -470,6 +495,8 @@
     .i3_video
       position: relative
       width: 233px
+      height: 233px
+      margin-right: 0px
     .i3_play_background
       opacity: 0
       position: absolute

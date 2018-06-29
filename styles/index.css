@@ -290,10 +290,18 @@
   margin-bottom: 28px;
 }
 
+.index_3_experts .i3-mobile-vid {
+  margin-top: 10px;
+  color: #c02482;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
 .index_3_experts h1 {
   font-size: 25px;
   font-family: 'Open Sans SemiBold';
   margin-top: 55px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -309,6 +317,7 @@
 }
 
 .index_3_experts .i3_experts_wrapper {
+  margin-left: -30px;
   display: flex;
   flex-flow: column wrap;
 }
@@ -318,17 +327,19 @@
   flex-flow: column wrap;
   flex: 0 0 100%;
   max-width: 500px;
+  height: 150px;
   text-align: left;
   justify-content: left;
+  margin-bottom: 30px;
 }
 
 .index_3_experts .i3_experts_wrapper > div h2 {
   font-size: 18px;
-  line-height: 20px;
   font-weight: 550;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   width: 200px;
-  flex: 0 0 30%;
+  flex: 0 0 23%;
 }
 
 .index_3_experts .i3_experts_wrapper > div h2 span {
@@ -339,8 +350,8 @@
 
 .index_3_experts .i3_experts_wrapper > div img {
   margin-bottom: 22px;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 
@@ -352,9 +363,11 @@
 }
 
 .index_3_experts .i3_video {
-  width: 50px;
+  width: 80px;
   flex: 0 0 100%;
   position: relative;
+  height: 150px;
+  margin-right: 20px;
 }
 
 .index_3_experts .i3_play_background {
@@ -392,6 +405,9 @@
     align-items: center;
     margin-bottom: 28px;
   }
+  .index_3_experts .i3-mobile-vid {
+    display: none;
+  }
   .index_3_experts h1 {
     font-size: 30px;
     font-family: 'Open Sans SemiBold';
@@ -409,6 +425,7 @@
     margin-bottom: 50px;
   }
   .index_3_experts .i3_experts_wrapper {
+    margin-left: 0px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -420,6 +437,7 @@
     text-align: center;
     align-items: center;
     margin: 35px 0px 30px 0px;
+    height: auto;
   }
   .index_3_experts .i3_experts_wrapper > div:nth-child(2) {
     margin-left: 50px;
@@ -430,6 +448,7 @@
     line-height: 20px;
     font-weight: 550;
     margin-bottom: 5px;
+    margin-top: 15px;
     flex: 0 0 auto;
   }
   .index_3_experts .i3_experts_wrapper > div h2 span {
@@ -450,7 +469,10 @@
   .index_3_experts .i3_video {
     position: relative;
     width: 150px;
+    height: 150px;
     flex: 0 0 auto;
+    margin-top: 25px;
+    margin-right: 0px;
   }
   .index_3_experts .i3_play_background {
     opacity: 0;
@@ -486,6 +508,9 @@
     align-items: center;
     margin-bottom: 28px;
   }
+  .index_3_experts .i3-mobile-vid {
+    display: none;
+  }
   .index_3_experts h1 {
     font-size: 36px;
     font-family: 'Open Sans SemiBold';
@@ -502,6 +527,7 @@
     margin-bottom: 118px;
   }
   .index_3_experts .i3_experts_wrapper {
+    margin-left: 0px;
     display: flex;
     flex-flow: row wrap;
   }
@@ -512,7 +538,8 @@
     text-align: center;
     justify-content: flex-start;
     align-items: center;
-    margin: 55px 0px 40px 0px;
+    margin: 15px 0px 40px 0px;
+    height: auto;
   }
   .index_3_experts .i3_experts_wrapper > div:nth-child(2) {
     margin-left: 115px;
@@ -523,6 +550,7 @@
     line-height: 26px;
     font-weight: 550;
     margin-bottom: 10px;
+    margin-top: 35px;
     flex: 0 0 auto;
   }
   .index_3_experts .i3_experts_wrapper > div h2 span {
@@ -543,6 +571,8 @@
   .index_3_experts .i3_video {
     position: relative;
     width: 233px;
+    height: 233px;
+    margin-right: 0px;
   }
   .index_3_experts .i3_play_background {
     opacity: 0;
