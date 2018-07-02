@@ -607,7 +607,10 @@
   align-items: center;
   color: #ffffff;
   height: 890px;
-  background-image: url("../assets/images/i4_background.png");
+  background-image: url("../assets/images/i4-baza-znanii-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .index_4_kbase h1 {
