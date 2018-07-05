@@ -21,7 +21,6 @@ index:
 
 
 
-
 ---index_3_experts
 
   – Cant figure out the way to properly position transparent play button overlay over the portrait without using fixed width.
@@ -29,3 +28,5 @@ index:
 
 
 ---index_4_icons
+
+  
