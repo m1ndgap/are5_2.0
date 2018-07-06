@@ -603,10 +603,9 @@
 
 .index_4_kbase {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   align-items: center;
   color: #ffffff;
-  height: 890px;
   background-image: url("../assets/images/i4-baza-znanii-img.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -629,50 +628,55 @@
   margin-top: 13px;
 }
 
-.index_4_kbase .i4_icons {
+.index_4_kbase .i4-icons {
   display: flex;
-  flex-direction: row;
+  flex-flow: column nowrap;
 }
 
-.index_4_kbase .i4_icons p {
-  margin-top: 40px;
-  font-size: 18px;
+.index_4_kbase .i4-icons p {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-left: 20px;
 }
 
-.index_4_kbase .i4_icons span {
-  font-size: 60px;
+.index_4_kbase .i4-icons span {
+  font-size: 40px;
   background-repeat: no-repeat;
-  padding-left: 100px;
+  padding-left: 70px;
+  background-size: contain;
 }
 
-.index_4_kbase .i4_icons div {
-  margin-top: 50px;
+.index_4_kbase .i4-icons div {
+  margin-top: 30px;
   padding: 0px 60px 0px 60px;
 }
 
-.index_4_kbase .i4_icons div:nth-child(2) {
-  border-left: 1px solid #dfdfdf;
-  border-right: 1px solid #dfdfdf;
-}
-
-.index_4_kbase .i4_icons .imac {
+.index_4_kbase .i4-icons .imac {
   background-image: url("../assets/images/imac_icon.png");
-  background-position: -2px 12px;
+  background-position: 3px 12px;
+  background-size: 50px;
 }
 
-.index_4_kbase .i4_icons .headphones {
+.index_4_kbase .i4-icons .headphones {
   background-image: url("../assets/images/headphones_icon.png");
-  background-position: -6px -1px;
+  background-position: 3px -1px;
 }
 
-.index_4_kbase .i4_icons .pie_charts {
+.index_4_kbase .i4-icons .pie_charts {
   background-image: url("../assets/images/pie_charts_icon.png");
-  background-position: -4px -6px;
+  background-position: 0px 0px;
 }
 
 .index_4_kbase .button {
-  padding: 25px 0px;
-  margin-top: 40px;
+  margin-top: 20px;
+  display: block;
+  width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
@@ -696,36 +700,36 @@
     margin-top: 54px;
     line-height: 34px;
   }
-  .index_4_kbase .i4_icons {
+  .index_4_kbase .i4-icons {
     display: flex;
     flex-direction: row;
   }
-  .index_4_kbase .i4_icons p {
+  .index_4_kbase .i4-icons p {
     margin-top: 40px;
     font-size: 18px;
   }
-  .index_4_kbase .i4_icons span {
+  .index_4_kbase .i4-icons span {
     font-size: 60px;
     background-repeat: no-repeat;
     padding-left: 100px;
   }
-  .index_4_kbase .i4_icons div {
+  .index_4_kbase .i4-icons div {
     margin-top: 50px;
     padding: 0px 60px 0px 60px;
   }
-  .index_4_kbase .i4_icons div:nth-child(2) {
+  .index_4_kbase .i4-icons div:nth-child(2) {
     border-left: 1px solid #dfdfdf;
     border-right: 1px solid #dfdfdf;
   }
-  .index_4_kbase .i4_icons .imac {
+  .index_4_kbase .i4-icons .imac {
     background-image: url("../assets/images/imac_icon.png");
     background-position: -2px 12px;
   }
-  .index_4_kbase .i4_icons .headphones {
+  .index_4_kbase .i4-icons .headphones {
     background-image: url("../assets/images/headphones_icon.png");
     background-position: -6px -1px;
   }
-  .index_4_kbase .i4_icons .pie_charts {
+  .index_4_kbase .i4-icons .pie_charts {
     background-image: url("../assets/images/pie_charts_icon.png");
     background-position: -4px -6px;
   }
@@ -757,36 +761,36 @@
     margin-top: 54px;
     line-height: 34px;
   }
-  .index_4_kbase .i4_icons {
+  .index_4_kbase .i4-icons {
     display: flex;
     flex-direction: row;
   }
-  .index_4_kbase .i4_icons p {
+  .index_4_kbase .i4-icons p {
     margin-top: 40px;
     font-size: 18px;
   }
-  .index_4_kbase .i4_icons span {
+  .index_4_kbase .i4-icons span {
     font-size: 60px;
     background-repeat: no-repeat;
     padding-left: 100px;
   }
-  .index_4_kbase .i4_icons div {
+  .index_4_kbase .i4-icons div {
     margin-top: 50px;
     padding: 0px 60px 0px 60px;
   }
-  .index_4_kbase .i4_icons div:nth-child(2) {
+  .index_4_kbase .i4-icons div:nth-child(2) {
     border-left: 1px solid #dfdfdf;
     border-right: 1px solid #dfdfdf;
   }
-  .index_4_kbase .i4_icons .imac {
+  .index_4_kbase .i4-icons .imac {
     background-image: url("../assets/images/imac_icon.png");
     background-position: -2px 12px;
   }
-  .index_4_kbase .i4_icons .headphones {
+  .index_4_kbase .i4-icons .headphones {
     background-image: url("../assets/images/headphones_icon.png");
     background-position: -6px -1px;
   }
-  .index_4_kbase .i4_icons .pie_charts {
+  .index_4_kbase .i4-icons .pie_charts {
     background-image: url("../assets/images/pie_charts_icon.png");
     background-position: -4px -6px;
   }

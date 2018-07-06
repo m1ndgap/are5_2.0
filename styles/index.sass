@@ -525,10 +525,9 @@
 //
 .index_4_kbase
   display: flex
-  flex-direction: column
+  flex-flow: column nowrap
   align-items: center
   color: $white
-  height: 890px
   background-image: url('../assets/images/i4-baza-znanii-img.png')
   background-repeat: no-repeat
   background-size: cover
@@ -545,34 +544,44 @@
     color: $white
     text-align: center
     margin-top: 13px
-  .i4_icons
+  .i4-icons
     display: flex
-    flex-direction: row
+    flex-flow: column nowrap
     p
-      margin-top: 40px
-      font-size: 18px
+      margin-top: 15px
+      font-size: 14px
+      margin-left: 20px
     span
-      font-size: 60px
+      font-size: 40px
       background-repeat: no-repeat
-      padding-left: 100px
+      padding-left: 70px
+      background-size: contain
     div
-      margin-top: 50px
+      margin-top: 30px
       padding: 0px 60px 0px 60px
-      &:nth-child(2)
+      //&:nth-child(2)
         border-left: 1px solid $grey
         border-right: 1px solid $grey
     .imac
       background-image: url('../assets/images/imac_icon.png')
-      background-position: -2px 12px
+      background-position: 3px 12px
+      background-size: 50px
     .headphones
       background-image: url('../assets/images/headphones_icon.png')
-      background-position: -6px -1px
+      background-position: 3px -1px
     .pie_charts
       background-image: url('../assets/images/pie_charts_icon.png')
-      background-position: -4px -6px
+      background-position: 0px 0px
   .button
-    padding: 25px 0px
-    margin-top: 40px
+    margin-top: 20px
+    display: block
+    width: 230px
+    padding-left: 10px
+    padding-right: 10px
+    padding-top: 15px
+    padding-bottom: 15px
+    text-align: center
+    margin-bottom: 50px
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px)
@@ -593,7 +602,7 @@
       max-width: 890px
       margin-top: 54px
       line-height: 34px
-    .i4_icons
+    .i4-icons
       display: flex
       flex-direction: row
       p
@@ -642,7 +651,7 @@
       max-width: 890px
       margin-top: 54px
       line-height: 34px
-    .i4_icons
+    .i4-icons
       display: flex
       flex-direction: row
       p
