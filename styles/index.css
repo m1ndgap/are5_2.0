@@ -133,6 +133,10 @@
   flex-flow: column nowrap;
 }
 
+.index_2_numbers .i2-column div {
+  margin-top: 30px;
+}
+
 .index_2_numbers .i2-icon {
   background-repeat: no-repeat;
   padding-left: 90px;
@@ -685,19 +689,23 @@
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-    background-image: url("../assets/images/i4_background.png");
+    background-image: url("../assets/images/i4-baza-znanii-img@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .index_4_kbase h1 {
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Open Sans SemiBold';
+    margin-top: 70px;
     text-align: center;
-    margin-top: 95px;
   }
   .index_4_kbase p {
-    font-size: 24px;
+    width: 80%;
+    font-size: 20px;
     text-align: center;
     max-width: 890px;
-    margin-top: 54px;
+    margin-top: 34px;
     line-height: 34px;
   }
   .index_4_kbase .i4-icons {
@@ -714,8 +722,8 @@
     padding-left: 100px;
   }
   .index_4_kbase .i4-icons div {
-    margin-top: 50px;
-    padding: 0px 60px 0px 60px;
+    margin-top: 30px;
+    padding: 0px 30px 0px 30px;
   }
   .index_4_kbase .i4-icons div:nth-child(2) {
     border-left: 1px solid #dfdfdf;
@@ -746,7 +754,10 @@
     align-items: center;
     color: #ffffff;
     height: 890px;
-    background-image: url("../assets/images/i4_background.png");
+    background-image: url("../assets/images/i4-baza-znanii-img@3x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .index_4_kbase h1 {
     font-size: 36px;
@@ -795,6 +806,7 @@
     background-position: -4px -6px;
   }
   .index_4_kbase .button {
+    width: 268px;
     padding: 25px 0px;
     margin-top: 40px;
   }
