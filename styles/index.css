@@ -731,7 +731,8 @@
   }
   .index_4_kbase .i4-icons .imac {
     background-image: url("../assets/images/imac_icon.png");
-    background-position: -2px 12px;
+    background-position: 6px 20px;
+    background-size: 60px;
   }
   .index_4_kbase .i4-icons .headphones {
     background-image: url("../assets/images/headphones_icon.png");
@@ -795,7 +796,8 @@
   }
   .index_4_kbase .i4-icons .imac {
     background-image: url("../assets/images/imac_icon.png");
-    background-position: -2px 12px;
+    background-position: -2px 20px;
+    background-size: 64px;
   }
   .index_4_kbase .i4-icons .headphones {
     background-image: url("../assets/images/headphones_icon.png");
@@ -819,23 +821,24 @@
 }
 
 .index_5_student_feedback h1 {
-  letter-spacing: -0.7px;
-  margin-top: 135px;
-  font-size: 36px;
+  font-size: 25px;
   font-family: 'Open Sans SemiBold';
+  margin-top: 55px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .index_5_student_feedback p {
-  max-width: 1067px;
+  width: 90%;
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 24px;
   text-align: center;
-  line-height: 52px;
 }
 
 .index_5_student_feedback .i5_signature {
+  width: 80%;
   margin-top: 10px;
   position: relative;
   padding-left: 100px;
@@ -853,23 +856,23 @@
   font-family: 'Open Sans Light';
   font-size: 16px;
   text-align: left;
-  line-height: 6px;
 }
 
 .index_5_student_feedback .i5_signature:after {
   position: absolute;
-  left: -2px;
-  top: -14px;
+  left: 30px;
+  top: 1px;
   display: block;
   content: ' ';
-  height: 82px;
-  width: 82px;
+  height: 50px;
+  width: 50px;
   background-image: url("../assets/images/i5_portrait.png");
+  background-size: 50px;
   background-color: yellow;
 }
 
 .index_5_student_feedback .i5-slider {
-  margin-top: 70px;
+  margin-top: 30px;
   width: 107px;
   height: 17px;
   display: flex;
@@ -907,9 +910,9 @@
     font-weight: 300;
     font-size: 36px;
     text-align: center;
-    line-height: 52px;
   }
   .index_5_student_feedback .i5_signature {
+    margin: auto;
     margin-top: 10px;
     position: relative;
     padding-left: 100px;
@@ -925,17 +928,17 @@
     font-family: 'Open Sans Light';
     font-size: 16px;
     text-align: left;
-    line-height: 6px;
   }
   .index_5_student_feedback .i5_signature:after {
     position: absolute;
-    left: -2px;
-    top: -14px;
+    left: 13px;
+    top: 2px;
     display: block;
     content: ' ';
-    height: 82px;
-    width: 82px;
+    height: 60px;
+    width: 60px;
     background-image: url("../assets/images/i5_portrait.png");
+    background-size: 60px;
     background-color: yellow;
   }
   .index_5_student_feedback .i5-slider {
@@ -979,9 +982,11 @@
     line-height: 52px;
   }
   .index_5_student_feedback .i5_signature {
-    margin-top: 10px;
+    margin: auto;
+    margin-top: 7px;
     position: relative;
     padding-left: 100px;
+    width: 45%;
   }
   .index_5_student_feedback .i5_signature span {
     letter-spacing: 0.55px;
@@ -995,6 +1000,7 @@
     font-size: 16px;
     text-align: left;
     line-height: 6px;
+    white-space: nowrap;
   }
   .index_5_student_feedback .i5_signature:after {
     position: absolute;
@@ -1005,7 +1011,7 @@
     height: 82px;
     width: 82px;
     background-image: url("../assets/images/i5_portrait.png");
-    background-color: yellow;
+    background-size: 82px;
   }
   .index_5_student_feedback .i5-slider {
     margin-top: 70px;

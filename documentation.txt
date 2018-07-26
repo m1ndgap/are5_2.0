@@ -3,6 +3,7 @@
 — Should I care about how smooth the manual window resizing goes (ie background images not scaling etc.)?
   Do people actually do it or 99.9% of users just open it on a certain viewport and that's it?
 
+— h1 is repeated with minimal variations in each section of the index page, is it okay or should I consolidate it somewhere? There are some changes in every iteration so I have a feeling that it will cause more trouble for me. Which is the correct way here, keeping in mind possible scaling etc.
 
 
 index:
