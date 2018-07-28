@@ -5,6 +5,8 @@
 
 — h1 is repeated with minimal variations in each section of the index page, is it okay or should I consolidate it somewhere? There are some changes in every iteration so I have a feeling that it will cause more trouble for me. Which is the correct way here, keeping in mind possible scaling etc.
 
+— If I set margin in % does the % come from the element margin belongs too or the parent?
+
 
 index:
 
@@ -37,7 +39,11 @@ index:
   - Is using <br> in titles okay like I did here?
   - Is it okay to select the title div with nthchild(1) or should I make it an h3 or something?
 
+---index_7_contact_form
 
+  - What is the proper way to make a properly looking select/select dropdown
+  - Is there a way to adjust the select arrow with basic html/css or is it an OS feature?
+  - Is it okay to change flex direction between media queries or should it be done by adjusting width and using wrap?
 
 TODO:
 > get all buttons to base.sass for all the styles
