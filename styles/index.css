@@ -1499,6 +1499,8 @@
     background-position: center;
   }
   .index_7_contact_form .i7_wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-flow: row nowrap;
   }
@@ -1509,13 +1511,14 @@
     flex-wrap: wrap;
   }
   .index_7_contact_form .i7_wrapper div:nth-child(1) {
-    padding-right: 40px;
+    margin: 0px;
   }
   .index_7_contact_form .i7_wrapper div:nth-child(1) h1 {
     margin-top: -10px;
   }
   .index_7_contact_form .i7_wrapper div:nth-child(2) {
     width: 45%;
+    margin: 0px;
   }
   .index_7_contact_form .i7_wrapper div:nth-child(2) > form {
     min-width: 400px;
